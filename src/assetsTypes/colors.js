@@ -38,3 +38,7 @@ export const skinColors = {
     DarkBrown: "#AE5D29",
     Black: "#614335"
 };
+
+export const circleColors = {
+    
+}
