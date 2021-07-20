@@ -105,7 +105,7 @@ import { topTypes } from './assetsTypes/top'
 import { accessoriesTypes } from './assetsTypes/accessories'
 import { facialHairTypes } from './assetsTypes/facial-hair'
 import { GraphicShirtTypes } from './assetsTypes/graphic-shirt'
-import { hairColors, skinColors, hatAndShirtColors } from './assetsTypes/colors'
+import { hairColors, skinColors, hatAndShirtColors, circleColors } from './assetsTypes/colors'
 
 export default {
      props: {
