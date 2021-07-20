@@ -150,6 +150,7 @@ export default {
             hatAndShirtColors: hatAndShirtColors,
             hairColors: hairColors,
             skinColors: skinColors,
+            circleColors: circleColors,
         }
     },
     computed: {
@@ -159,6 +160,7 @@ export default {
             '--avataaar-facial-hair-color': this.facialHairColor === 'random' ? this.getRandomChoice(this.hairColors) : this.hairColors[this.facialHairColor],
             '--avataaar-hat-color': this.topColor === 'random' ? this.getRandomChoice(this.hatAndShirtColors) : this.hatAndShirtColors[this.topColor],
             '--avataaar-shirt-color': this.clotheColor === 'random' ? this.getRandomChoice(this.hatAndShirtColors) : this.hatAndShirtColors[this.clotheColor],
+            '--avataaar-circle-color': this.circleColor === 'random' ? this.getRandomChoice(this.circleColors) : this.circleColors[this.circleColor],
 
           }
         },
